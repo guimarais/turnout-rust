@@ -1,0 +1,7 @@
+VERSION 12 5.2.0
+TURNOUT 1 0 0 0 0 HO 2 0 0 0 0 "Märklin	Straight	100"
+ E4 0 0 180
+ E4 10 0 0
+ S 0 0 0 0 10 0
+ END$SEGS
+END$TRACKS

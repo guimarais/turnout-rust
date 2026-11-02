@@ -128,8 +128,16 @@ async fn summary_flow(h: &Harness) {
         .unwrap()
         .unwrap();
     let names: Vec<_> = tools.tools.iter().map(|t| t.name.as_ref()).collect();
-    assert_eq!(names.len(), 3);
-    for name in ["open_layout", "get_layout_info", "list_tracks"] {
+    assert_eq!(names.len(), 7);
+    for name in [
+        "open_layout",
+        "get_layout_info",
+        "list_tracks",
+        "list_track_libraries",
+        "select_track_libraries",
+        "list_track_parts",
+        "get_track_part",
+    ] {
         assert!(names.contains(&name));
     }
     let open_tool = tools

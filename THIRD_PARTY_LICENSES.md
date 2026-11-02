@@ -61,6 +61,7 @@ Reproduce this inventory with `cargo metadata --locked --filter-platform x86_64-
 | serde_derive | 1.0.229 | MIT OR Apache-2.0 |
 | serde_derive_internals | 0.30.0 | MIT OR Apache-2.0 |
 | serde_json | 1.0.154 | MIT OR Apache-2.0 |
+| sha2 | 0.11.1 | MIT OR Apache-2.0 |
 | signal-hook-registry | 1.4.8 | MIT OR Apache-2.0 |
 | slab | 0.4.12 | MIT |
 | strsim | 0.11.1 | MIT |

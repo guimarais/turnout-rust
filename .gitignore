@@ -75,6 +75,11 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
+debug/
+release/
+*.rs.bk
+*.rlib
+*.prof*
 
 # Jupyter Notebook
 .ipynb_checkpoints

@@ -1,0 +1,31 @@
+CONTENTS "System A"
+TURNOUT HO "Märklin	Straight	100"
+E 0 0 180
+E 10 0 0
+S black 1 0 0 10 0
+P "main" 1
+END
+TURNOUT HO "Märklin	Curve	101"
+E 0 10 180
+E 10 0 90
+C black 1 10 0 0 0 90 90
+P "main" 1
+END$SEGS
+TURNOUT HO "Märklin	Turnout	102"
+E 0 0 180
+E 10 0 0
+E 10 10 45
+S black 1 0 0 10 0
+C black 1 0 0 10 0 90 90
+P "straight" 1
+P "branch" 2
+END
+TURNOUT HO "Märklin	Crossing	103"
+E 0 0 180
+E 10 0 0
+E 0 10 180
+E 10 10 0
+S black 1 0 0 10 0
+S black 1 0 10 10 10
+P "cross" 1 0 2
+END

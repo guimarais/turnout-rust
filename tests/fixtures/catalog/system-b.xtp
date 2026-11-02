@@ -1,0 +1,7 @@
+CONTENTS "System B"
+TURNOUT N "Other	Straight	100"
+E 0 0 180
+E 5 0 0
+S black 1 0 0 5 0
+P "main" 1
+END
